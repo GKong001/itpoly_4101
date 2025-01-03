@@ -52,3 +52,202 @@ h1, h2 {
 footer {
   font-size: 0.9rem;
 }
+
+.content {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand i {
+  margin-right: 8px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.content {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+footer {
+  background: #222;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+h2 {
+  color: #333;
+}
+
+.img-fluid {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+:root {
+  --orange: #ff6f00;
+  --light-orange: #ffe0b2;
+}
+
+.hero-section {
+  background-color: var(--light-orange);
+}
+
+.hero-section h1 {
+  color: var(--orange);
+}
+
+.text-orange {
+  color: var(--orange);
+}
+
+.services-section h2 {
+  color: var(--orange);
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: var(--orange);
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.img-fluid {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.navbar {
+  background-color: var(--orange) !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: var(--light-orange) !important;
+}
+
+.footer {
+  background-color: var(--orange);
+  color: white;
+  padding: 15px 0;
+}
+
+:root {
+  --orange: #ff6f00;
+  --light-orange: #ffe0b2;
+}
+
+.bg-orange {
+  background-color: var(--orange) !important;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+:root {
+  --orange: #ff6f00;
+  --light-orange: #ffe0b2;
+}
+
+.bg-light-orange {
+  background-color: var(--light-orange) !important;
+}
+
+.text-orange {
+  color: var(--orange) !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  padding: 8px 12px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: var(--orange);
+  color: white !important;
+  border-radius: 5px;
+}
+
+:root {
+  --orange: #ff6f00;
+}
+
+.bg-orange {
+  background-color: var(--orange) !important;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ffe0b2 !important;
+}

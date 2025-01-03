@@ -1,23 +1,29 @@
-const Contact = () => (
-    <div className="container py-5">
-      <h2 className="text-center mb-4">Contact Us</h2>
-      <form>
-        <div className="mb-3">
-          <label htmlFor="name" className="form-label">Name</label>
-          <input type="text" className="form-control" id="name" placeholder="Your name" />
+import React from 'react';
+
+const Contact = () => {
+  return (
+    <div className="text-center">
+      <h2 className="fw-bold mb-4">Contact Us</h2>
+      <p className="lead mb-4">
+        Have questions or need assistance? Reach out to us!
+      </p>
+      <img 
+        src="https://lh3.googleusercontent.com/p/AF1QipM6N7JKQkbgwt40cSHVaZeB_cyxflodi8TRkNnY=s680-w680-h510" 
+        alt="Contact Us" 
+        className="img-fluid rounded shadow-sm mb-4"
+      />
+      <div className="row">
+        <div className="col-md-6">
+          <h5>Address</h5>
+          <p>123 Main Street, Cityville, USA</p>
         </div>
-        <div className="mb-3">
-          <label htmlFor="email" className="form-label">Email</label>
-          <input type="email" className="form-control" id="email" placeholder="Your email" />
+        <div className="col-md-6">
+          <h5>Email</h5>
+          <p>support@mywebsite.com</p>
         </div>
-        <div className="mb-3">
-          <label htmlFor="message" className="form-label">Message</label>
-          <textarea className="form-control" id="message" rows="4" placeholder="Your message"></textarea>
-        </div>
-        <button type="submit" className="btn btn-primary">Send</button>
-      </form>
+      </div>
     </div>
   );
-  
-  export default Contact;
-  
+};
+
+export default Contact;
